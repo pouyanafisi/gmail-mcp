@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "command": "node",
+      "args": [
+        "/Users/pouyanafisi/Sites/gmail-mcp/gmail-mcp/dist/index.js"
+      ]
+    }
+  }
+}

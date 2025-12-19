@@ -1,0 +1,15 @@
+{
+  "_comment": "This is an example MCP configuration. Run 'npm run setup' to automatically create the actual config files.",
+  "_note": "This file is just a template - MCP tools read from specific locations:",
+  "_cursor": ".cursor/mcp.json (in project root)",
+  "_claudeDesktop_macos": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "_claudeDesktop_windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "_claudeDesktop_linux": "~/.config/Claude/claude_desktop_config.json",
+  "mcpServers": {
+    "gmail": {
+      "command": "node",
+      "args": ["/absolute/path/to/gmail-mcp/dist/index.js"]
+    }
+  }
+}
+

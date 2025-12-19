@@ -1,0 +1,75 @@
+{
+  "name": "gmail-mcp",
+  "version": "2.0.0",
+  "description": "MCP server for Gmail API with OAuth2 authentication and comprehensive email management",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "gmail-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "auth": "node dist/index.js auth",
+    "setup": "node setup-mcp.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "gmail",
+    "mcp",
+    "model-context-protocol",
+    "google-gmail",
+    "email",
+    "oauth",
+    "claude",
+    "gemini",
+    "ai",
+    "automation"
+  ],
+  "author": "Pouya Nafisi",
+  "homepage": "https://github.com/pouyanafisi/gmail-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouyanafisi/gmail-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pouyanafisi/gmail-mcp/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^129.0.0",
+    "mime-types": "^3.0.1",
+    "nodemailer": "^7.0.3",
+    "open": "^10.0.0",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.1"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.10.5",
+    "@types/nodemailer": "^6.4.17",
+    "@vitest/coverage-v8": "^1.0.0",
+    "@vitest/ui": "^1.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}
+
