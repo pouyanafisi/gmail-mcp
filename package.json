@@ -1,5 +1,5 @@
 {
-  "name": "gmail-mcp",
+  "name": "@pouyanafisi/gmail-mcp",
   "version": "2.0.0",
   "description": "MCP server for Gmail API with OAuth2 authentication and comprehensive email management",
   "type": "module",

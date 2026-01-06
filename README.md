@@ -45,13 +45,13 @@ After setup, restart your IDE and start managing Gmail directly from your AI ass
 ### Install from npm (Recommended)
 
 ```bash
-npm install -g gmail-mcp
+npm install -g @pouyanafisi/gmail-mcp
 ```
 
 Or install locally:
 
 ```bash
-npm install gmail-mcp
+npm install @pouyanafisi/gmail-mcp
 ```
 
 ### Install from source
